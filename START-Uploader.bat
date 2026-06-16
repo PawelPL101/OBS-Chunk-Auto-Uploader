@@ -1,6 +1,6 @@
 @echo off
 REM =============================================================================
-REM OBS Chunk Auto-Uploader
+REM OBS Chunk Auto-Uploader (Version 1.0.0)
 REM Copyright (c) 2026 PawelPL101
 REM Licensed under CC BY-ND 4.0 - You may use and share this file, but you may
 REM NOT distribute modified versions. See LICENSE.txt for full terms.
@@ -8,6 +8,7 @@ REM ============================================================================
 
 echo ===============================================
 echo        OBS Chunk Uploader - Starting...
+echo                  v1.0.0
 echo ===============================================
 echo.
 

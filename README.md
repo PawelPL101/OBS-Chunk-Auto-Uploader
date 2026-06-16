@@ -8,6 +8,8 @@ huge, high-quality footage and don't want a 200 GB file eating their SSD.
 
 *Developed by **PawelPL101***
 
+*Version 1.0.0*
+
 ---
 
 ## The Problem This Solves
@@ -112,8 +114,8 @@ Double-click **`SETUP.bat`**. It will:
 - Save your configuration
 
 ### 4. Verify (optional but recommended)
-Run **`Test-Pipeline.ps1`** to confirm everything works. It uploads a small test
-file, verifies it, and cleans up. All tests should pass.
+Double-click **`TEST-Uploader.bat`** to confirm everything works. It uploads a small
+test file, verifies it, and cleans up. All checks should pass.
 
 ### 5. Configure OBS
 In OBS: **Settings → Output → Recording**
@@ -150,6 +152,7 @@ OBS-Chunk-Auto-Uploader/
 ├── SETUP.bat                  ← run this first (one-time setup)
 ├── START-Uploader.bat         ← start uploading + open dashboard
 ├── STOP-Uploader.bat          ← stop the uploader safely
+├── TEST-Uploader.bat          ← verify your setup works (optional)
 ├── README.md                  ← this file
 ├── how-to-install-rclone.txt  ← rclone install guide
 ├── LICENSE.txt                ← license terms
@@ -159,11 +162,12 @@ OBS-Chunk-Auto-Uploader/
 │   ├── Watch-OBSChunks.ps1
 │   ├── Dashboard.ps1
 │   ├── Load-Config.ps1
+│   ├── Stop-Uploader.ps1
 │   └── Test-Pipeline.ps1
 └── data/                      ← auto-generated runtime files (logs, stats)
 ```
 
-You only ever interact with the three `.bat` files. Everything in `scripts/`
+You only ever interact with the `.bat` files. Everything in `scripts/`
 and `data/` runs automatically behind the scenes.
 
 ---

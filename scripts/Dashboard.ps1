@@ -1,5 +1,5 @@
 # =============================================================================
-# OBS Chunk Auto-Uploader
+# OBS Chunk Auto-Uploader (Version 1.0.0)
 # Copyright (c) 2026 PawelPL101
 # Licensed under CC BY-ND 4.0 - You may use and share this file, but you may
 # NOT distribute modified versions. See LICENSE.txt for full terms.
@@ -140,6 +140,7 @@ while ($true) {
     Write-Host "===============================================" -ForegroundColor White
     Write-Host "       OBS Uploader - Live Dashboard" -ForegroundColor White
     Write-Host "          Developed by PawelPL101" -ForegroundColor Magenta
+    Write-Host "                  v1.0.0" -ForegroundColor DarkGray
     Write-Host "===============================================" -ForegroundColor White
     Write-Host "  Updated: $time" -ForegroundColor DarkGray
     Write-Host ""

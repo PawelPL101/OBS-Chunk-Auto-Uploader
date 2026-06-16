@@ -131,6 +131,18 @@ STEP 5: VERIFY IT WORKS
 STEP 6: CONNECT RCLONE TO YOUR CLOUD (GOOGLE DRIVE EXAMPLE)
 -------------------------------------------------------------------------------
 
+NOTE: This uploader works with ANY cloud service rclone supports - NOT just
+Google Drive. That includes Dropbox, OneDrive, Backblaze B2, Amazon S3, Mega,
+pCloud, Box, Proton Drive, and 60+ others. The steps below use Google Drive as
+an example because it's the most common, but the process is the same for any
+provider: run "rclone config", create a new remote, and pick your provider from
+the list. rclone will then prompt you through that provider's sign-in. The only
+part that differs between providers is the sign-in screen.
+
+(If you pick a different provider, just choose its number from the storage list
+in step 2 below instead of Google Drive, and follow rclone's prompts. When
+SETUP for this uploader asks which cloud you're using, pick the matching one.)
+
 Now you'll link rclone to your cloud account. The SETUP for this uploader can
 launch this for you, but here are the manual steps in case you want to do it
 yourself or something goes wrong.
@@ -145,11 +157,12 @@ yourself or something goes wrong.
        - name>  gdrive                    then press Enter
                 (You can name it anything, but remember what you choose -
                  you'll enter this name during SETUP. "gdrive" is a good
-                 simple choice for Google Drive.)
+                 simple choice for Google Drive. If you're using a different
+                 provider, pick a fitting name like "dropbox" or "onedrive".)
 
        - You'll see a long numbered list of storage types. Look for the one
          labeled "Google Drive" (it may be named "drive"). Type the NUMBER
-         next to it, then press Enter. (You can choose any cloud service you want, but for this guide Google Drive will be the example.)
+         next to it, then press Enter.
 
        - client_id>        just press Enter (leave blank)
        - client_secret>    just press Enter (leave blank)

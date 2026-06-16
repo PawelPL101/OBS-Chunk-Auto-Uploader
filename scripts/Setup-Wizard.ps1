@@ -1,5 +1,5 @@
 # =============================================================================
-# OBS Chunk Auto-Uploader
+# OBS Chunk Auto-Uploader (Version 1.0.0)
 # Copyright (c) 2026 PawelPL101
 # Licensed under CC BY-ND 4.0 - You may use and share this file, but you may
 # NOT distribute modified versions. See LICENSE.txt for full terms.
@@ -24,6 +24,7 @@ Clear-Host
 Write-Host "===============================================" -ForegroundColor White
 Write-Host "   OBS Chunk Auto-Uploader - Setup Wizard" -ForegroundColor White
 Write-Host "          Developed by PawelPL101" -ForegroundColor Magenta
+Write-Host "                  v1.0.0" -ForegroundColor DarkGray
 Write-Host "===============================================" -ForegroundColor White
 Write-Host ""
 Write-Host "This wizard will detect your system and set up the uploader." -ForegroundColor Gray
