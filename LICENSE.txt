@@ -1,0 +1,17 @@
+# User-specific configuration (created by SETUP on each machine)
+config.txt
+
+# Runtime data files (generated automatically)
+data/progress.txt
+data/lifetime-stats.txt
+data/rclone-current.log
+
+# Logs
+*.log
+upload-log.txt
+log-archive/
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
